@@ -16,6 +16,16 @@
   .place_to_get_lost_image img {
     width: 350px;
   }
+
+  .newsletter_image img {
+    width: 400px;
+  }
+
+  .save_up_to {
+    padding: 20px;
+    right: 20%;
+    bottom: 30%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -86,12 +96,62 @@
   .place_to_get_lost_container img {
     width: 100%;
   }
+
+  .newsletter_container {
+    flex-direction: column;
+  }
+
+  .newsletter_image img {
+    width: 100%;
+  }
+
+  .save_up_to {
+    padding: 20px 50px;
+    bottom: 25%;
+    right: 8%;
+  }
+
+  .save_up_to h2 {
+    font-size: 21px;
+  }
+
+  .save_up_to h5 {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .container {
     width: 100%;
     padding: 0 10px;
+  }
+
+  .header {
+    padding: 40px 10px 0 10px;
+  }
+
+  .why_choose_us {
+    padding: 10px;
+  }
+
+  .place_to_get_lost {
+    padding: 10px;
+  }
+
+  .popular_tours {
+    padding: 10px;
+  }
+
+  .logo h1 {
+    color: #131318;
+    font-size: 22px;
+    font-weight: 800;
+  }
+
+  .logo h1 span {
+    color: #ff5400;
+    font-size: 22px;
+    font-weight: 800;
   }
 
   .navbar ul {
@@ -108,8 +168,13 @@
   }
 
   .form_container form {
+    width: 100%;
     flex-direction: column;
     flex-wrap: nowrap;
+  }
+
+  .form_container form input {
+    width: 100%;
   }
 
   .form_container .find_now_btn {
@@ -134,5 +199,33 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+  }
+
+  .place_to_get_lost_content h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .place_to_get_lost_content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .place_to_get_lost_content ul li {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .newsletter_form {
+    padding: 5px;
+  }
+
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footer_container p {
+    font-size: 14px;
   }
 }
