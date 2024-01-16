@@ -201,6 +201,32 @@
     line-height: 24px;
   }
 
+  .destination_image_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallary_image_1 {
+    grid-column: auto;
+  }
+  .gallary_image_2 {
+    grid-column: auto;
+  }
+  .gallary_image_3 {
+    grid-column: auto;
+  }
+  .gallary_image_4 {
+    grid-column: auto;
+  }
+  .gallary_image_5 {
+    grid-column: auto;
+  }
+  .gallary_image_6 {
+    grid-column: auto;
+  }
+  .gallary_image_7 {
+    grid-column: auto;
+  }
+
   .place_to_get_lost_content h2 {
     font-size: 20px;
     line-height: 30px;
