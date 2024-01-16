@@ -203,6 +203,10 @@ input[type]:focus,
   cursor: pointer;
 }
 
+.find_now_btn i {
+  margin-right: 10px;
+}
+
 /* popular tours */
 .popular_tours {
   padding: 40px 0;
@@ -302,56 +306,63 @@ input[type]:focus,
   content: "Maldives";
   color: #fff;
   position: absolute;
-  top: 45%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 28px;
 }
 .gallary_image_2::after {
   content: "Indonesia";
   color: #fff;
   position: absolute;
-  top: 45%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 28px;
 }
 .gallary_image_3::after {
   content: "Srilanka";
   color: #fff;
   position: absolute;
-  top: 45%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 28px;
 }
 .gallary_image_4::after {
   content: "North America";
   color: #fff;
   position: absolute;
-  top: 45%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 28px;
 }
 .gallary_image_5::after {
   content: "Kashmir";
   color: #fff;
   position: absolute;
-  top: 45%;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 28px;
 }
 .gallary_image_6::after {
   content: "Bangladesh";
   color: #fff;
   position: absolute;
-  top: 45%;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 28px;
 }
 .gallary_image_7::after {
   content: "Bandarban";
   color: #fff;
   position: absolute;
-  top: 45%;
-  left: 38%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 28px;
   text-align: center;
 }

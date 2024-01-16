@@ -227,6 +227,28 @@
     grid-column: auto;
   }
 
+  .gallary_image_1::after {
+    font-size: 20px;
+  }
+  .gallary_image_2::after {
+    font-size: 20px;
+  }
+  .gallary_image_3::after {
+    font-size: 20px;
+  }
+  .gallary_image_4::after {
+    font-size: 20px;
+  }
+  .gallary_image_5::after {
+    font-size: 20px;
+  }
+  .gallary_image_6::after {
+    font-size: 20px;
+  }
+  .gallary_image_7::after {
+    font-size: 20px;
+  }
+
   .place_to_get_lost_content h2 {
     font-size: 20px;
     line-height: 30px;
