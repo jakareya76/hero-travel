@@ -35,6 +35,28 @@ a {
   cursor: pointer;
 }
 
+.bg_light_blue {
+  border: 1px solid rgba(41, 206, 246, 0.2) !important;
+  background: rgba(41, 206, 246, 0.05) !important;
+}
+
+.section_header {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.section_text {
+  max-width: 550px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 16px auto;
+}
+
 /* Navbar */
 .header {
   padding: 40px 0;
@@ -201,4 +223,185 @@ a {
   font-weight: 400;
   line-height: 26px;
   margin: 16px 0;
+}
+
+/* destination */
+.destination {
+  padding: 40px 0;
+}
+
+.destination_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.destination_image_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 25px;
+}
+
+/* why_choose_us */
+.why_choose_us {
+  padding: 80px 0;
+}
+
+.why_choose_us_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.why_choose_us_card {
+  max-width: 550px;
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+  border-radius: 8px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  cursor: pointer;
+}
+
+.why_choose_us_card h4 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+/* discounts */
+.discounts {
+  padding: 60px 0;
+}
+
+.discounts_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.discounts_card {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-radius: 16px;
+}
+
+.card_background_1 {
+  background-image: url("../Images/Group\ 39.png");
+}
+.card_background_2 {
+  background-image: url("../Images/Group\ 40.png");
+  justify-content: start;
+}
+.card_background_3 {
+  background-image: url("../Images/Group\ 39.png");
+}
+
+.discounts_card_details {
+  max-width: 580px;
+  background: rgba(255, 255, 255, 0.637);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.discounts_card_details h4 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.discounts_card_details p {
+  color: #272727;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.discounts_card_details h5 {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.time_and_location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.time_and_location i {
+  color: #ff5400;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.time,
+.max,
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* place_to_get_lost */
+.place_to_get_lost {
+  padding: 60px 0;
+}
+
+.place_to_get_lost_container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.place_to_get_lost_content h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.place_to_get_lost_content p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 20px 0;
+}
+
+.place_to_get_lost_content ul {
+  list-style: disc;
+}
+
+.place_to_get_lost_content li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 20px 0;
 }

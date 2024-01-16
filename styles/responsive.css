@@ -2,6 +2,7 @@
   .container {
     max-width: 960px;
     margin: 0 auto;
+    padding: 0 20px;
   }
 
   .form_container form {
@@ -9,6 +10,10 @@
   }
 
   .popular_tours_container .popular_tours_image img {
+    width: 350px;
+  }
+
+  .place_to_get_lost_image img {
     width: 350px;
   }
 }
@@ -53,9 +58,55 @@
   .popular_tours_container .popular_tours_image img {
     width: 100%;
   }
+
+  .destination_image_container img {
+    width: 100%;
+  }
+
+  .discounts_card {
+    align-items: end;
+    justify-content: center;
+  }
+
+  .discounts_card_details {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .time_and_location {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .place_to_get_lost_container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .place_to_get_lost_container img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .banner_content h2 {
+    font-size: 22px;
+  }
+
+  .banner_content p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
   .form_container form {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -63,5 +114,25 @@
 
   .form_container .find_now_btn {
     width: 100%;
+  }
+
+  .section_header {
+    font-size: 24px;
+  }
+
+  .popular_tours_content h2 {
+    font-size: 24px;
+  }
+
+  .popular_tours_content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .popular_tours_content ul li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
   }
 }
