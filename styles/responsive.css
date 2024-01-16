@@ -1,5 +1,67 @@
 @media screen and (max-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .form_container form {
+    flex-wrap: wrap;
+  }
+
+  .popular_tours_container .popular_tours_image img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .banner_content {
+    padding: 20px;
+  }
+
+  .banner_content h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .banner_content p {
+    max-width: 600px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  .form_container form {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .form_container .find_now_btn {
+    width: 100%;
+  }
+
+  .popular_tours_container {
+    flex-direction: column;
+  }
+
+  .popular_tours_container .popular_tours_image img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .form_container form {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .form_container .find_now_btn {
+    width: 100%;
+  }
 }

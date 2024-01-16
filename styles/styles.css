@@ -21,6 +21,18 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn_primary {
+  background: #ff5400;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 /* Navbar */
@@ -90,9 +102,8 @@ a {
   background: linear-gradient(
     180deg,
     rgba(19, 19, 24, 0.8) 10%,
-    rgba(19, 19, 24, 0) 100%
+    rgba(19, 19, 24, 0) 80%
   );
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,22 +129,20 @@ a {
 }
 
 .form_container {
-  background: rgba(255, 255, 255, 0.3);
-  max-width: 82%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  border-radius: 16px;
-  padding: 10px 20px;
 }
 
 .form_container form {
+  background: rgba(255, 255, 255, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 25px;
-  padding: 10px;
+  border-radius: 10px;
+  padding: 16px 26px;
 }
 
 .form_container form input {
@@ -145,7 +154,7 @@ a {
   border-radius: 8px;
 }
 
-.form_container form button {
+.form_container .find_now_btn {
   background: #ff5400;
   color: #fff;
   font-size: 16px;
@@ -153,4 +162,43 @@ a {
   padding: 18px 32px;
   border: none;
   border-radius: 8px;
+}
+
+/* popular tours */
+.popular_tours {
+  padding: 40px 0;
+}
+
+.popular_tours_container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.popular_tours_content h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.popular_tours_content p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 20px 0;
+}
+
+.popular_tours_content ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.popular_tours_content ul li {
+  max-width: 500px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 16px 0;
 }
