@@ -29,8 +29,16 @@
 }
 
 @media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
+  .mobile_menu i {
+    font-size: 26px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .mobile_menu {
+    display: block;
   }
 
   .banner_content {
@@ -53,8 +61,13 @@
   }
 
   .form_container form {
+    width: 100%;
     flex-direction: column;
     flex-wrap: nowrap;
+  }
+
+  .form_container form input {
+    width: 100%;
   }
 
   .form_container .find_now_btn {
@@ -152,10 +165,6 @@
     color: #ff5400;
     font-size: 22px;
     font-weight: 800;
-  }
-
-  .navbar ul {
-    display: none;
   }
 
   .banner_content h2 {

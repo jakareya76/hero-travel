@@ -119,6 +119,10 @@ input[type]:focus,
   color: #ff5400;
 }
 
+.mobile_menu {
+  display: none;
+}
+
 /* Banner */
 .banner {
   padding: 40px 0;
